@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# 🎙️ AiVoiceAssistant - Yapay Zeka Destekli Sesli Asistan
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**AiVoiceAssistant**, kullanıcıların sesli komutlarını dinleyen, yorumlayan ve akıllı yanıtlar üreten bir mobil uygulamadır. Expo ve React Native teknolojileri kullanılarak geliştirilmiştir.
 
-## Get started
+## 🌟 Öne Çıkan Özellikler
 
-1. Install dependencies
+- 🎤 Sesli komut algılama ve işleme
+- 🧠 OpenAI entegrasyonu ile akıllı yanıtlar
+- 🚀 Kullanıcı dostu onboarding deneyimi
+- 📱 Çapraz platform desteği (iOS & Android)
+- 🔒 Güvenli API anahtar yönetimi
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Kurulum
 
-2. Start the app
+### Ön Koşullar
+- Node.js (v16 veya üzeri)
+- Expo CLI (`npm install -g expo-cli`)
+- Git (opsiyonel)
 
-   ```bash
-   npx expo start
-   ```
+### Kurulum Adımları
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. **Bağımlılıkları Yükleme**
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. **Ortam Değişkenlerini Ayarlama**
 
-## Learn more
+Proje kök dizininde .env dosyası oluşturun
 
-To learn more about developing your project with Expo, look at the following resources:
+env
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Uygulamayı Başlatma
 
-## Join the community
+```bash
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+### 🚀 Çalıştırma Seçenekleri
+Uygulamayı aşağıdaki yöntemlerle çalıştırabilirsiniz:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- 📱 Expo Go uygulaması (QR kod ile)
+
+- 🤖 Android Emülatörü
+
+- 🍏 iOS Simülatörü
+
+- ⚙️ Yerel geliştirme build'i
+
+
+
+### 💻 Kullanılan Teknolojiler
+- ⚛️ React Native + Expo
+
+- 📜 TypeScript
+
+- 🎤 expo-av (Ses işleme)
+
+- 🔊 expo-speech (Metin okuma)
+
+- 🛣️ expo-router (Navigasyon)
+
+- 📏 react-native-size-matters (Responsive tasarım)
